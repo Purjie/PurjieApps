@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/header">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dpp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/dp"
+            app:civ_border_color="@color/Putih"
+            app:civ_border_overlay="true"
+            app:civ_border_width="3dp"
+            app:civ_fill_color="@color/background_invite_friend" />
+
+        <TextView
+            android:id="@+id/aboutme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dpp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Contact Me"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/place"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/aboutme"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/placeholder" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/place"
+            android:layout_marginLeft="10dp"
+            android:text="My Location" />
+
+        <ImageView
+            android:id="@+id/hp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/aboutme"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/place"
+            android:src="@drawable/smartphone" />
+
+        <TextView
+            android:id="@+id/thp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hp"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@+id/location"
+            android:text="Call Phone" />
+
+        <ImageView
+            android:id="@+id/tw"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/aboutme"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/ig"
+            android:src="@drawable/tw" />
+
+        <TextView
+            android:id="@+id/ttw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tw"
+            android:layout_marginLeft="27dp"
+            android:layout_toRightOf="@+id/tig"
+            android:text="Twitter" />
+
+
+        <ImageView
+            android:id="@+id/ig"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/aboutme"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/email"
+            android:src="@drawable/ig" />
+
+        <TextView
+            android:id="@+id/tig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ig"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/temail"
+            android:text="Instagram" />
+
+
+        <ImageView
+            android:id="@+id/email"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/aboutme"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/hp"
+            android:src="@drawable/email" />
+
+        <TextView
+            android:id="@+id/temail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hp"
+            android:layout_marginLeft="23dp"
+            android:layout_toRightOf="@+id/thp"
+            android:text="Email" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl1"
+        android:layout_marginTop="20dp"
+        android:text="@string/deshome"
+        android:textColor="@color/intro_title_color"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:onClick="ShowPopup"
+        android:id="@+id/aboutapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desc1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="About App"
+        android:background="@drawable/button_hitamputih"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/intro_title_color"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

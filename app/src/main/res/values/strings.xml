@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Home">Purnama Adjie</string>
+    <string name="deshome">Seorang Mahasiswa yang berumur 21 Tahun jurusan Teknik Informaika disalah satu kampus dibandung\nSedikit bicara, banyak bercanda.\nPendiam bukan berarti sombong</string>
+    <string name="hobi">Hobi : Badminton, Futsal, Nonton Film\nCita-cita : Sukses fiddunya wal akhiroh </string>
+    <string name="hello_blank_fragment">Hello</string>
+    <string name="versi1">Purjie app merupakan aplikasi mobile yang dibuat untuk memenuhi tugas Aplikasi Komputasi Bergerak. Aplikasi masih sangat sederhana dan baru merilis versi 1.0</string>
+</resources>

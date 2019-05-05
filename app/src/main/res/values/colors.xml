@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Putih">#FFFFFF</color>
+    <color name="PutihTrans">#eeeeee</color>
+    <color name="PutihAbu">#aaaaaa</color>
+    <color name="Color">#FF0957</color>
+    <color name="background_invite_friend">#f1f1f2</color>
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+    <color name="birunav">#182C61</color>
+    <color name="tab_indikator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+
+    <color name="home">#58B19F</color>
+</resources>
